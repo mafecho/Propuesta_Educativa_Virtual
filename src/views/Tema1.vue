@@ -5,20 +5,46 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 ¿Por qué es necesario probar los juegos?
+      h1 Creación y configuración del LMS - Moodle
 
     .row.justify-content-center.align-items-center
-      .col-6.col-lg-2.mb-3
+      .col-6.col-lg-4.mb-3
         figure
-          img(src='@/assets/curso/temas/tema1/img1.png', alt="alt")      
-      .col-10
-        p Las empresas de desarrollo de juegos deben invertir lo suficiente en las pruebas de los videojuegos para garantizar que el producto final no tenga errores o <i>bugs</i>. Eso haría decaer la experiencia del jugador y la parte central de los juegos es la experiencia del consumidor. Con una buena experiencia de usuario, un juego prosperará. Hay millones de juegos en la #[i App Store] y la #[i Play Store], pero ser un ganador entre esta dura competencia requiere mucha paciencia y trabajo. 
-
-        p Con tantos juegos llegando al mercado diariamente, hay que ser diferente para destacar y dejar huella. Los niveles complejos no son suficientes para que los usuarios se enganchen a un juego y lo recomienden a sus amigos, ya que si el juego no funciona como los usuarios esperan, no tardarán en desinstalarlo y pasarse a otro.
+          img(src='@/assets/curso/temas/tema1/imag2.png', alt="alt")      
+      .col-lg-8
+        p La plataforma virtual educativa para el aprendizaje online fácil de usar, pero no la más simple
+        p Es una plataforma digital de gestión del aprendizaje online fácil de usar y polivalente con el que puedes impartir, evaluar y analizar tus cursos de formación online
+        p Todo tipo de contenidos: vídeo, audio, tests y mucho más
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1  Tipos de técnicas de pruebas de juegos
+      h2 1.1  Gestiona y centraliza tu formación
+
+    .row.mb-5
+      ul.lista-ul--color
+        li 
+          i.fas.fa-check
+          | Plataforma para dar clases online alojada en la nube
+        li 
+          i.fas.fa-check
+          | Intégrala con tu web, ecommerce, sistema de RRHH, etc.
+        li 
+          i.fas.fa-check
+          | Escalable al número de alumnos que tengas
+        li 
+          i.fas.fa-check
+          | Inscribe y archiva a los alumnos de forma individual o masiva
+        li 
+          i.fas.fa-check
+          | Controla los permisos y accesos a los contenidos
+        li 
+          i.fas.fa-check
+          | Válida para formación síncrona o asíncrona
+
+
+
+
+
 
     .row.justify-content-center.align-items-center
       .col-6.col-lg-1.mb-3

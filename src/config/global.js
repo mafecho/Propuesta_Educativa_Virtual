@@ -61,31 +61,6 @@ export default {
             titulo: '¿Cómo funciona la prueba de juegos?',
             hash: 't_1_5',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo:
-              'Métricas clave de las pruebas funcionales de control de calidad',
-            hash: 't_1_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Informes de errores',
-            hash: 't_1_7',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Tipos principales de métodos de prueba de juegos',
-            hash: 't_1_8',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Cómo funcionan las pruebas en diferentes plataformas',
-            hash: 't_1_9',
-          },
         ],
       },
 
