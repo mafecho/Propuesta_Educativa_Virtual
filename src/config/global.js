@@ -1,18 +1,13 @@
 export default {
   global: {
-    componenteFormativo: 'Técnicas de testeo y pruebas para videojuegos',
-    descripcionCurso:
-      'El componente de formación hace énfasis en las pruebas del prototipo del juego las cuales comienzan desde la etapa de preproducción, para optimizar el videojuego y corregir los errores o bugs en dicho videojuego.',
+    componenteFormativo: 'NUESTROS SERVICIOS',
+    descripcionCurso: '',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
     ],
   },
@@ -33,7 +28,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '¿Por qué es necesario probar los juegos?',
+        titulo: 'Configuración LMS',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -98,22 +93,21 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Cómo iniciar las pruebas o <i>testing</i> en un videojuego',
+        titulo: 'Diseño curricular',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          'Utilizando el <i>Framework Test Runner - Unit testing en unity</i>',
+        titulo: 'Diseño gráfico y Guión',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Pruebas del sistema',
+        titulo: 'Maquetación y gamificación',
         desarrolloContenidos: true,
       },
     ],

@@ -15,14 +15,16 @@
           img(src="@/assets/curso/temas/introduccion/img-1.svg", alt="alt")
 
       .col-lg-10.mt-5
-        p.mb-0 Estimado aprendiz, continuando con este maravilloso aprendizaje, reflexione sobre lo siguiente: 
-          span.texto-azul #[b Antes de que una mariposa pueda tomar su primer vuelo, debe empujar y luchar para salir de un capullo. Sin este desafiante obstáculo, sería demasiado débil para sobrevivir en el mundo exterior.] 
-          |  ¿Qué tiene esto que ver con las pruebas de juego? Bueno, como una mariposa, cada juego debe someterse a una prueba seria que lo fortalezca antes de lanzarlo al mundo. Por lo anterior le invitamos a revisar el siguiente video para identificar el contexto de aprendizaje de este componente formativo:
+        p Los recursos digitales ofrecen nuevas oportunidades en los procesos de enseñanza y aprendizaje al incorporar la imagen, el sonido y la interactividad como elementos que refuerzan la comprensión y motivación del aprendiz.
+          span.texto-azul #[b Los recursos educativos digitales son la herramienta base para la creación de buenos e innovadores ambientes de aprendizaje].
+
+        p Actualmente las empresas manejan su plan de capacitación y selección de personal por medio de herramientas y material didactico evaluativo, que permita tener un mayor alcance en sus procesos de selección de personal y en sus procesos de capacitación, convirtiendo en un activo de gran importancia sus plataformas de capacitación.
+
 
     .row.my-5(data-aos="fade-zoom")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/RrteEnhzyHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
