@@ -2,13 +2,16 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 35%
+    right: 82%
+    width: 40%
+
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 58%
+    right: 10%
+    width: 32%
 
 
 @keyframes float1
@@ -17,3 +20,305 @@
 
   100%
     transform: translateY(0px)
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
+
+.banner-principal__img
+  width: 350px !important
+  padding-top: 6rem !important
+  padding-bottom: 0rem !important
+
+.texto-azul
+  color: #04B1D9
+
+///// CSS GLOBALES-------
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #F4F4F5
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #F4F4F5
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #05DBF3 !important
+  border: #05DBF3
+  opacity: 100%  
+
+.slyder-a__bullets__item
+  background-color: #87EEFA
+
+//lista con icono
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 50px
+      height: 50px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #339CE9
+      span 
+        color: red
+        font-weight: 700
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        font-size: 30px
+        
+      
+    
+    &__number 
+      position: relative
+      margin-right: 0.5rem
+      span 
+        color:#BF3976
+        font-size: 13pt
+        font-weight: 700
+        line-height: 1.2
+      
+    
+    &__icon 
+      position: relative
+      width: 20px
+      margin-right: 0.65rem
+      margin-top: 4px
+      img 
+        width: 50px
+        vertical-align: middle
+        
+  &__txt 
+    p:first-child,
+    h4:first-child 
+      margin-top: 2px   
+
+.margin-icon
+  margin-top: 10px
+
+.cajon.color-secundario 
+    background-color: #CCF9FE
+
+//CSS Tema 1
+
+.tema1-bg1
+  background-image: url(../assets/curso/temas/tema1/bg1.png)
+  background-size: 100% 100%
+
+.tema1-bg2
+  background-color: #E7E4FD
+  background-size: 100% 100%
+  border-radius: 22px
+
+//slyder tipo a
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  right: -15px
+  background-color: #F1BF5E
+  opacity: 1
+  @media (max-width: 500px)
+    top: 30%
+
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: -15px
+  background-color: #F1BF5E
+  opacity: 1
+  @media (max-width: 500px)
+    top: 30%
+
+.slyder-a__tipo-a .slyder-a__bullets 
+    position: absolute
+    bottom: 0px
+    left: 50%
+    transform: translateX(-50%)
+    display: none !important
+
+.tarjeta--morada
+  background-color: #E7E4FD
+
+td, th
+    border: 1px solid #8979F3
+    padding: 0.75em
+
+.img-11
+  width: 90%
+  max-width: 100%
+  position: relative
+  margin-top: -15%
+  margin-left: 10%
+
+.bloque-texto-f.color-secundario:before
+  background-color: #CCF9FE
+
+.bloque-texto-f__avatar__img
+  top: -70px
+
+.bordered 
+    border: solid #8979F3 0.2px
+    -moz-border-radius: 20px
+    -webkit-border-radius: 20px 
+    border-radius: 20px
+    -webkit-box-shadow: 0 0.2px #8979F3 
+    -moz-box-shadow: 0 0.2px #8979F3
+    box-shadow: 0 0.2px #8979F3
+
+.tarjeta-flip.color-acento-contenido .tarjeta-flip__contenido
+  background-color: #D0C9FA
+
+.tabla-b th, .tabla-c th
+    width: 50%
+    border-right: 1px solid #e8e8e8
+  
+.tr1
+  vertical-align: middle
+  background-color: #E7E4FD
+
+.tr2
+  vertical-align: middle
+  background-color: #EEEEEE  
+
+td
+  border: 1px solid #AFAFAF
+
+//CSS Tema 2
+
+//pasos-a
+
+.pasos-a.color-acento-contenido .pasos-a__circle
+  background-color: #3C3FA7
+
+.pasos-a.color-acento-contenido .pasos-a__numero::after
+  border-left-color: #3C3FA7
+
+.pasos-a.color-acento-contenido .pasos-a__linea .hor-line 
+  border-top-color: #3C3FA7
+
+.pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea 
+  border-color: #3C3FA7
+
+.text-end
+  text-align: left !important
+
+.texto-negro
+  color: #12263F !important
+
+.bloque-texto-g1__img 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 50%
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media (max-width: 500px)
+    height: 250px
+    width: 100%
+    left: 0%
+
+.bloque-texto-g1__texto 
+  position: relative
+  width: 60%
+  background-color: rgba(255, 255, 255, 0.95)
+  right: 40%
+  @media (max-width: 500px)
+    width: 100%
+    right: 0%
+
+.tarjeta-morada
+  background-color: #8979F3
+  margin-right: -12px
+  width: 522px
+  height: 480px
+  @media (max-width: 500px)
+    margin-right: 0px
+    width: auto
+    height: auto
+
+.tarjeta-azul
+  background-color: #05DBF3
+  margin-left: -12px
+  width: 522px
+  height: 480px
+  @media (max-width: 500px)
+    margin-left: 0px
+    width: auto
+    height: auto
+
+.animacion-img-3
+  position: relative
+  animation: scale 2.8s ease-in-out infinite alternate
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.2)
+
+.color-vineta1
+  color: #05DBF3 !important
+  
+.color-vineta2
+  color: #8979F3 !important
+
+.bg1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -20px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema3/fondo1.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: space
+
+.img7-tm3
+  position: relative
+  width: 70%
+  margin-top: 10%
+  left: 20%
+  @media (max-width: 500px)
+    width: 100%
+    margin-top: 0%
+    left: 0%
+
+.img9-tm3
+  position: relative
+  width: 70%
+  @media (max-width: 500px)
+    width: 100%
+
+.img-14
+  width: 90%
+  max-width: 100%
+  position: relative
+  margin-top: -20%
+  margin-left: 10%
+  margin-bottom: -30px
+
+.color-tarjeta
+  background-color: #CCF9FE
+
+.img-infografica__card
+  top: 25% !important
+  left: 35% !important
+  width: 400px
+  @media (max-width: 500px)
+    width: 300px
+    top: 60% !important
+    left: 0% !important
