@@ -222,7 +222,7 @@ export default {
   ],
   creditos: [
     {
-      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      titulo: 'RECURSOS EDUCATIVOS DIGITALES A LA MEDIDA',
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
